@@ -15,6 +15,11 @@ import java.util.Stack;
 
 public class MainActivity extends AppCompatActivity {
 
+    //TODO: After clicking equals, if number is pressed, previous results are cleared
+    //TODO: After clicking equals, if delete is pressed, previous results are cleared
+    //TODO: Make ")(" multiply the contents of parentheses
+    //TODO: Ensure that results perfectly fill screen without spilling over (terminate decimals at a certain number)
+
     String calcString;
     TextView calcDisplay;
     HorizontalScrollView calcDisplayScroll;
