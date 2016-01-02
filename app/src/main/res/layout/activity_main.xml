@@ -30,272 +30,230 @@
                 android:textSize="40sp"
                 android:minLines="1"
                 android:singleLine="true"
-                android:paddingRight="25dp"/>
+                android:paddingRight="25dp" />
 
         </HorizontalScrollView>
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/delete_string"
             android:id="@+id/btnDelete"
             android:layout_row="6"
             android:layout_column="0"
             android:layout_columnSpan="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="deleteClick"/>
+            android:onClick="deleteClick"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/clear_string"
             android:id="@+id/btnClear"
             android:layout_row="6"
             android:layout_column="1"
             android:layout_columnSpan="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="clearClick"/>
+            android:onClick="clearClick"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/openpars_string"
             android:id="@+id/btnOpenPars"
             android:layout_row="6"
             android:layout_column="2"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
             android:layout_gravity="bottom"
-            android:onClick="openParsClick"/>
+            android:onClick="openParsClick"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/closepars_string"
             android:id="@+id/btnClosePars"
             android:layout_row="6"
             android:layout_column="3"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
             android:layout_gravity="bottom"
-            android:onClick="closeParsClick"/>
+            android:onClick="closeParsClick"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/seven_string"
             android:id="@+id/btnSeven"
             android:layout_row="7"
             android:layout_column="0"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="sevenClick" />
+            android:onClick="sevenClick"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/eight_string"
             android:id="@+id/btnEight"
             android:layout_row="7"
             android:layout_column="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="eightClick" />
+            android:onClick="eightClick"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/nine_string"
             android:id="@+id/btnNine"
             android:layout_row="7"
             android:layout_column="2"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="nineClick" />
+            android:onClick="nineClick"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/division_string"
             android:id="@+id/btnDivision"
             android:layout_row="7"
             android:layout_column="3"
+            android:onClick="divisionClick"
             android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="divisionClick"/>
+            android:layout_marginTop="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/four_string"
             android:id="@+id/btnFour"
             android:layout_row="8"
             android:layout_column="0"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="fourClick" />
+            android:onClick="fourClick"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/five_string"
             android:id="@+id/btnFive"
             android:layout_row="8"
             android:layout_column="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="fiveClick" />
+            android:onClick="fiveClick"
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/six_string"
             android:id="@+id/btnSix"
             android:layout_row="8"
             android:layout_column="2"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="sixClick" />
+            android:onClick="sixClick"
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/multiplication_string"
             android:id="@+id/btnMultiplication"
             android:layout_row="8"
             android:layout_column="3"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="multiplicationClick"/>
+            android:onClick="multiplicationClick"
+            android:layout_marginLeft="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/one_string"
             android:id="@+id/btnOne"
             android:layout_row="9"
             android:layout_column="0"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="oneClick" />
+            android:onClick="oneClick"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/two_string"
             android:id="@+id/btnTwo"
             android:layout_row="9"
             android:layout_column="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="twoClick" />
+            android:onClick="twoClick"
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/three_string"
             android:id="@+id/btnThree"
             android:layout_row="9"
             android:layout_column="2"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="threeClick" />
+            android:onClick="threeClick"
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/decimal_string"
             android:id="@+id/btnDecimal"
             android:layout_row="10"
             android:layout_column="0"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:onClick="decimalClick"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="10dp"
-            android:onClick="decimalClick"/>
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/zero_string"
             android:id="@+id/btnZero"
             android:layout_row="10"
             android:layout_column="1"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:onClick="zeroClick"
             android:layout_marginBottom="10dp"
-            android:onClick="zeroClick" />
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/equals_string"
             android:id="@+id/btnEquals"
             android:layout_row="10"
             android:layout_column="2"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:onClick="equalsClick"
             android:layout_marginBottom="10dp"
-            android:onClick="equalsClick"/>
+            android:layout_marginRight="0dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/subtraction_string"
             android:id="@+id/btnSubtraction"
             android:layout_row="9"
             android:layout_column="3"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:onClick="subtractionClick"/>
+            android:onClick="subtractionClick"
+            android:layout_marginLeft="15dp" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:text="@string/addition_string"
             android:id="@+id/btnAddition"
             android:layout_row="10"
             android:layout_column="3"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:onClick="additionClick"
             android:layout_marginBottom="10dp"
-            android:onClick="additionClick" />
+            android:layout_marginLeft="15dp" />
     </GridLayout>
 </RelativeLayout>
